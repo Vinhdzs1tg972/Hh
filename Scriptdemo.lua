@@ -35,14 +35,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "QuantumOyx Hub",
     Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
   
@@ -56,5 +51,38 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
      Name = "Night Mystic",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Hinish Hub",
+    Callback = function()
+	  getgenv().team = "Marines" -- Marines or Pirates
+
+_G.Translate = "English"
+
+-- Thai or Russian or Portuguese or Vietnamese
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Hinishi/Hinishi-Hub/refs/heads/main/Freemium.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Gravity Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Teddy Hub",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/4def2b8e661398d2"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Rise Evo Hub",
+    Callback = function()
+	  getgenv().Team = "Marines" --Marines, Pirates
+loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/project/refs/heads/main/loadder.lua'))()
   end
   })
