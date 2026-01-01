@@ -96,12 +96,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/projec
   end
   })
   AddButton(Tab1o, {
-     Name = "Vxeze Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
-  end
-  })
-  AddButton(Tab1o, {
      Name = "Banana Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/Banana-Hub/main/bananahub.lua"))()
@@ -114,21 +108,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/asher-realrise/projec
   end
   })
   AddButton(Tab1o, {
-     Name = "Ok Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/MainBloxFruit.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
      Name = "King Rua Hub",
     Callback = function()
 	  repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinyeuem/refs/heads/main/KingRuaHub.lua"))()
-  end
-  })
-  AddButton(Tab1o, {
-     Name = "Bacon Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/Bloxfruits.lua"))()
   end
   })
   AddButton(Tab1o, {
